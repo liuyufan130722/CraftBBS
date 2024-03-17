@@ -1,1 +1,2 @@
-这是B站UP主Cary0722的MCBBS复原计划的github仓库
+#这是B站UP主Cary0722的MCBBS复原计划的github仓库
+#感谢bilibili的PYmili和我的世界乄凋零的大力支持
