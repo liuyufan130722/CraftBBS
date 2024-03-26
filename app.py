@@ -1,17 +1,19 @@
 from flask import Flask
-from flask import render_template
+from flask import send_from_directory
+from flask_cors import CORS
 
 app = Flask(
     __name__,
     static_folder="static",
     template_folder="templates"
 )
+CORS(app)
 
 
 @app.route("/")
 def index():
     """home"""
-    return render_template("index.html")
+    return send_from_directory("static/vue", "index.html")
 
 
 if __name__ in "__main__":

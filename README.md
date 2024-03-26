@@ -1,11 +1,10 @@
-<<<<<<< HEAD
-这是B站UP主Cary0722的MCBBS复原计划的github仓库
+# CraftBBS
 
-感谢所有人的大力支持
-=======
-由bilibili-Cary0722,bilibili-PYmili,Frozen,link,Minecraft乄凋零共五人合力搭建
+## 参与创作者
+    1. Cary0722
+    2. PYmili
+    3. Frozen
+    4. link
+    5. Minecraft乄凋零
 
-感谢所有人的大力支持
-
-本项目为开源项目，尽请期待！！！
->>>>>>> 2662b8a6f9c0e46095160702694c47465b096558
+仍在开发中，敬请期待...
