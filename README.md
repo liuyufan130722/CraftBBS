@@ -1,29 +1,35 @@
-# vue-craftbbs
+# 项目名称：CraftBBS
 
-This template should help get you started developing with Vue 3 in Vite.
+## 项目介绍
+CraftBBS 是一个开源项目，旨在替代现有的MCBBS网站，提供更加现代化和高效的服务体验。该项目由五位核心成员共同领导和维护，分别是：Minecraft乄Withs、PYmili、Cary0722、Frozen和link。
 
-## Recommended IDE Setup
+### 团队分工
+- **项目负责人**：Minecraft乄Withs、PYmili、Cary0722、Frozen、link
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+#### 开发团队
+- **前端开发**：Minecraft乄Withs
+  - **前端框架**：无
+  - **前端语言**：HTML
 
-## Customize configuration
+- **后端开发**：PYmili
+  - **后端框架**：Flask
+  - **后端语言**：Python
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+- **搜索收录优化**：Frozen
 
-## Project Setup
+- **顾问与建议提供**：link
 
-```sh
-npm install
-```
+#### 技术栈与基础设施
+- **网站服务器**：由Minecraft乄Withs提供并由5人维护
+- **Web服务器代理**：Nginx
 
-### Compile and Hot-Reload for Development
+#### 版本控制与项目管理
+- **Git仓库管理**：Cary0722
+- **Git仓库地址**：[https://github.com/liuyufan130722/CraftBBS](https://github.com/liuyufan130722/CraftBBS)
 
-```sh
-npm run dev
-```
+## 最后编辑人
+- **最近更新**：Minecraft乄Withs
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+请注意，CraftBBS项目持续发展与改进，敬请关注项目进展和更新动态。
