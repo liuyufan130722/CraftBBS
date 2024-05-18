@@ -1,5 +1,5 @@
 from flask import Flask
-from flask import request
+from flask import request, render_template
 from flask_cors import CORS
 
 from database import user, verification_code
@@ -13,6 +13,24 @@ app = Flask(
     template_folder="templates"
 )
 CORS(app)
+
+
+@app.route("/", methods=["GET"])
+def index():
+    """Home"""
+    return render_template("index.html")
+
+
+@app.route("/above", methods=["GET"])
+def above():
+    """Above"""
+    return render_template("above.html")
+
+
+@app.route("/login", methods=["GET"])
+def login():
+    """Login"""
+    return render_template("login.html")
 
 
 @app.route("/send_code", methods=["POST"])
