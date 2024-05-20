@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 & 注册CraftBBS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <span></span>
+        <span></span>
+        <span></span>
+        <form id="signinForm">
+            <h2>登录</h2>
+            <div class="inputBox">
+                <input type="text" placeholder="用户名">
+            </div>
+            <div class="inputBox">
+                <input type="password" placeholder="密码">
+            </div>
+            <div class="inputBox group">
+                <a href="#">忘记密码</a>
+                <a href="#" id="signup">注册</a>
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="登录">
+            </div>
+        </form>
+
+        <form id="signupForm">
+            <h2>注册</h2>
+            <div class="inputBox">
+                <input type="text" placeholder="用户名">
+            </div>
+            <div class="inputBox">
+                <input type="text" placeholder="邮箱地址">
+
+            </div>
+            <div class="inputBox">
+                <input type="password" placeholder="创建密码">
+                
+            </div>
+            <div class="inputBox">
+                <input type="password" placeholder="确认密码">
+                
+            </div>
+            <div class="inputBox">
+                <input type="submit" value="注册账号">
+            </div>
+            <div class="inputBox group">
+                <a href="#">已有账号？<b id="signin">登录</b></a>
+            </div>
+        </form>
+    </div>
+    <script>
+        let signup = document.querySelector('#signup');
+        let signin = document.querySelector('#signin');
+        let body = document.querySelector('body');
+        signup.onclick = function(){
+            body.classList.add('signup');
+        }
+        signin.onclick = function(){
+            body.classList.remove('signup');
+        }
+    </script>
+</body>
+</html>
