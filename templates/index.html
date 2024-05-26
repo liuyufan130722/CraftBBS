@@ -4,69 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CraftBBS</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1em;
-            text-align: center;
-        }
-        nav {
-            display: flex;
-            justify-content: center;
-            background-color: #333;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            text-align: center;
-        }
-        nav a:hover {
-            background-color: #ddd;
-            color: black;
-        }
-        .content {
-            padding: 20px;
-        }
-        footer {
-            background-color: #4CAF50;
-            color: white;
-            text-align: center;
-            padding: 1em;
-            position: absolute;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/index.css">
+    <script src="/js/popper.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/index.js"></script>
 </head>
 <body>
-<header>
-    <h1>欢迎来到CraftBBS</h1>
-</header>
-<nav>
-    <a href="/">首页</a>
-    <a href="#">关于</a>
-    <a href="/login">登录</a>
-    <a href="#">社区</a>
-    <a href="/above">联系我们</a>
-</nav>
-<div class="content">
-    <h2>关于我的世界</h2>
-    <p>我的世界是一个沉浸式的沙盒游戏，您可以在一个方块像素的世界中进行创造、探索和生存。建造、挖矿和工艺，迎接冒险！</p>
-    <h2>游戏玩法</h2>
-    <p>发现无尽的世界，扩展您的创造力，建造并生存。与危险的生物战斗，与朋友合作，踏上史诗般的任务。</p>
-    <h2>加入社区</h2>
-    <p>与其他玩家联系，分享您的创意，并加入多人服务器，获得更多的刺激。</p>
-</div>
-<footer>
-    <p>&copy; 2023 我的世界。保留所有权利。</p>
-</footer>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #baf5fd;">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="/#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/#">首页</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Java版
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">地图</a></li>
+              <li><a class="dropdown-item" href="#">模组</a></li>
+              <li><a class="dropdown-item" href="#">光影包</a></li>
+              <li><a class="dropdown-item" href="#">材质包</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              基岩版
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">地图</a></li>
+              <li><a class="dropdown-item" href="#">行为包</a></li>
+              <li><a class="dropdown-item" href="#">资源包</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/#">关于我们</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        </div>
+        </div>
+        </nav>
+        <h1 id="title">欢迎来到CraftBBS!</h1>
 </body>
 </html>

@@ -1,10 +1,18 @@
-# CraftBBS
+# 分支名称：Bootstrap
 
-## 参与创作者
-    1. Cary0722
-    2. PYmili
-    3. Frozen
-    4. link
-    5. Minecraft乄凋零
+## 分支介绍
+CraftBBS的基于Bootstrap开发的版本，由Cary0722一人维护。
 
-仍在开发中，敬请期待...
+### 团队分工
+- **分支负责人**：Cary0722
+
+#### 开发团队
+- **前端开发**：Cary0722
+  
+  - **前端框架**：Bootstrap
+  - **前端语言**：HTML
+  
+- **后端开发**：Cary0722
+  
+  - **后端框架**：Flask
+  - **后端语言**：Python
